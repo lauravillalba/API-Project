@@ -13,55 +13,65 @@ coll_dialogues = db['dialogues']
 
 
 @app.route('/addUser/',methods=['POST'])
-def newUser ():    
-    
+def newUser ():
     #Add new user to coll_users:
     name = request.form.get('name')
-    equal_name = coll_users.distinct("userName")
+    n_user = max(coll_users.distinct('userID'))+1
+    equal_name = coll_users.distinct('userName')
     if name in equal_name:
         return "Ya existe ese nombre"
     
     else:
         dict_addUser = {
-                        'userName':name
+                        'userName':name,
+                        'userID': n_user
         }
         coll_users.insert_one(dict_addUser)
 
-    return f"Usuario '{name}' creado!"
+    return f"Usuario '{name}' creado --> id: {n_user}!"
 
 @app.route('/addScene/',methods=['POST'])
 def newScene():
     #Add new scene to coll_scenes:
     scene = request.form.get('scene')
-    name = request.form.getlist('name')
+    n_scene = max(coll_scenes.distinct('sceneID'))+1
+    names = request.form.getlist('names')
     equal_scene =coll_scenes.distinct("sceneName")
     if scene in equal_scene:
         return "Esta escena ya existe"
     else:
         dict_addScene={
                         'sceneName': scene,
-                        'userName': name
+                        'sceneID':n_scene,
+                        'userNames': names
         }
         coll_scenes.insert_one(dict_addScene)
 
-    return f"Escena '{scene}' creada!"
+    return f"Escena '{scene}' creada --> id: {n_scene}"
 
 @app.route('/addDialog/',methods=['POST'])
 def newDialog():
     #Add new dialog to coll_dialogs:
-    name = request.form.get('name')
     scene = request.form.get('scene')
-    dialog = request.form.getlist('dialog')
-    nameInScene= list(coll_scenes.find({"$and": [{"sceneName":scene},{"userName":name}]}))
-    if name not in nameInScene:
+    n_scene = list(coll_scenes.find({'sceneName':scene}))
+    name = request.form.get('name')
+    n_user = list(coll_users.find({'userName':name}))
+    dialog = request.form.get('dialog')
+    n_dialog = max(coll_dialogues.distinct('dialogID'))+1
+    nameInScene= list(coll_scenes.find({"$and": [{"sceneName":scene},{"userNames":name}]}))
+    
+    if not nameInScene or name not in nameInScene[0]['userNames']:
         return f"La escena {scene} o el nombre {name} no son correctos."
     else:
         dict_addDialog={
                         'sceneName':scene,
+                        'sceneID':n_scene[0]['sceneID'],
                         'userName':name,
-                        'dialog': dialog 
+                        'userID': n_user[0]['userID'],
+                        'dialog': dialog,
+                        'dialogID': n_dialog
         }
         coll_dialogues.insert_one(dict_addDialog)
-    return "Dialogo guardado!"
+    return f"Dialogo guardado --> id: {n_dialog}!"
 
 app.run("0.0.0.0", 2020, debug=True)
