@@ -26,7 +26,7 @@ El objetivo de este proyecto es crear una API mediante la cual se puedan analiza
 
 
 ## Output:
-*- Métodos POST:
+- Métodos POST:
   * Creación nuevo personaje: se valida si el personaje ya existe antes de añadirlo a la colección.
   * Creación nueva escena: se valida si la escena y los personajes que intervienen en la misma ya existen.
   * Creación nuevo diálogo: se valida antes de añadir el mensaje a la colección que exista el usuario y que este forme parte      de la escena a la que se añade cada frase.
