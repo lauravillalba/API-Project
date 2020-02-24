@@ -6,11 +6,16 @@ import pandas as pd
 from recommendation_functions import listaPersonajes,recomendedCharacter
 from add_functions import addUser, addScene, addDialog
 from sentiment_functions import sentimentAnalysis
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 
 # Connect to the database
-client = MongoClient("mongodb://localhost:27017/api_db")
+mongo_url=os.getenv("MONGODB_URL")
+
+client = MongoClient(mongo_url)
 db = client.get_database()
 coll_users = db['users']
 coll_scenes = db['scenes']

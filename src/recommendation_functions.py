@@ -1,5 +1,4 @@
 from flask import request
-from sklearn.feature_extraction.text import CountVectorizer
 import requests
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity as distance
