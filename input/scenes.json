@@ -1,0 +1,1215 @@
+[
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID250679"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID795714"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID582408"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID172795"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID373910"
+    },
+    {
+        "names": [
+            "dad",
+            "riley",
+            "mom"
+        ],
+        "scene": "ID268548"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID915247"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID599303"
+    },
+    {
+        "names": [
+            "joy",
+            "anger",
+            "disgust",
+            "sadness",
+            "mom"
+        ],
+        "scene": "ID426817"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID481507"
+    },
+    {
+        "names": [
+            "riley",
+            "mom",
+            "anger"
+        ],
+        "scene": "ID952583"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID681919"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID177806"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID244460"
+    },
+    {
+        "names": [
+            "joy",
+            "riley",
+            "mom"
+        ],
+        "scene": "ID290938"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID212248"
+    },
+    {
+        "names": [
+            "disgust",
+            "joy",
+            "dad"
+        ],
+        "scene": "ID149346"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID562239"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID134351"
+    },
+    {
+        "names": [
+            "joy",
+            "anger",
+            "disgust",
+            "sadness"
+        ],
+        "scene": "ID608721"
+    },
+    {
+        "names": [
+            "mom",
+            "riley"
+        ],
+        "scene": "ID491416"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID843613"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID486902"
+    },
+    {
+        "names": [
+            "disgust",
+            "joy"
+        ],
+        "scene": "ID739864"
+    },
+    {
+        "names": [
+            "riley",
+            "dad"
+        ],
+        "scene": "ID200760"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID540303"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID658979"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID559212"
+    },
+    {
+        "names": [
+            "joy",
+            "disgust"
+        ],
+        "scene": "ID958818"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID871330"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID772486"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID823667"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID287522"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID795348"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID941910"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID264855"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID220223"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID220663"
+    },
+    {
+        "names": [
+            "joy",
+            "riley"
+        ],
+        "scene": "ID722608"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy",
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID727579"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID595742"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID559582"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID141914"
+    },
+    {
+        "names": [
+            "mom",
+            "dad"
+        ],
+        "scene": "ID697402"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger",
+            "mom"
+        ],
+        "scene": "ID618225"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID762470"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust",
+            "mom"
+        ],
+        "scene": "ID855252"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID908494"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID569197"
+    },
+    {
+        "names": [
+            "mum-sadness",
+            "mum-joy",
+            "mum-fear",
+            "mum-disgust",
+            "mum-disgust"
+        ],
+        "scene": "ID147426"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID319290"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID187856"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID114929,"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID252544"
+    },
+    {
+        "names": [
+            "mum-disgust",
+            "mum-disgust",
+            "mum-sadness"
+        ],
+        "scene": "ID212423"
+    },
+    {
+        "names": [
+            "dad-anger",
+            "dad-fear",
+            "anger"
+        ],
+        "scene": "ID420573"
+    },
+    {
+        "names": [
+            "mum-disgust",
+            "mum-disgust",
+            "mum-sadness"
+        ],
+        "scene": "ID916231"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID871940"
+    },
+    {
+        "names": [
+            "mum-joy",
+            "mum-sadness",
+            "mum-fear",
+            "mum-disgust",
+            "mum-disgust"
+        ],
+        "scene": "ID340341"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID831556"
+    },
+    {
+        "names": [
+            "riley",
+            "mom"
+        ],
+        "scene": "ID968769"
+    },
+    {
+        "names": [
+            "dad-fear",
+            "dad-anger"
+        ],
+        "scene": "ID312478"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID455549"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID475450"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID334707"
+    },
+    {
+        "names": [
+            "dad-fear",
+            "dad-anger"
+        ],
+        "scene": "ID996279"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID525367"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID606357"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID188840"
+    },
+    {
+        "names": [
+            "dad-anger",
+            "dad-fear"
+        ],
+        "scene": "ID595433"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID202863"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID874908"
+    },
+    {
+        "names": [
+            "dad-anger",
+            "dad"
+        ],
+        "scene": "ID645946"
+    },
+    {
+        "names": [
+            "dad-fear",
+            "dad-anger"
+        ],
+        "scene": "ID258865"
+    },
+    {
+        "names": [
+            "mum-sadness"
+        ],
+        "scene": "ID561423"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID281282"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID967558"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID415833"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID899192"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID609493"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID796413"
+    },
+    {
+        "names": [
+            "dad"
+        ],
+        "scene": "ID590655"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID573157"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID923486"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "male forgetter"
+        ],
+        "scene": "ID402208"
+    },
+    {
+        "names": [
+            "female forgetter",
+            "male forgetter",
+            "joy"
+        ],
+        "scene": "ID644495"
+    },
+    {
+        "names": [
+            "joy",
+            "female forgetter",
+            "male forgetter"
+        ],
+        "scene": "ID515682"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID929610"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID899903"
+    },
+    {
+        "names": [
+            "riley",
+            "disgust"
+        ],
+        "scene": "ID315340"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID191873"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID836421"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID213478"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "bing bong"
+        ],
+        "scene": "ID732563"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong"
+        ],
+        "scene": "ID177889"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID779419"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID342681"
+    },
+    {
+        "names": [
+            "bing bong",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID793347"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID535578"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID210543"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID918120"
+    },
+    {
+        "names": [
+            "bing bong",
+            "joy"
+        ],
+        "scene": "ID316435"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong"
+        ],
+        "scene": "ID623637"
+    },
+    {
+        "names": [
+            "mom",
+            "riley"
+        ],
+        "scene": "ID465697"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID761757"
+    },
+    {
+        "names": [
+            "disgust"
+        ],
+        "scene": "ID421845"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID348537"
+    },
+    {
+        "names": [
+            "mom",
+            "riley"
+        ],
+        "scene": "ID957399"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID224182"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID703939"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong"
+        ],
+        "scene": "ID371844"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID366904"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "bing bong"
+        ],
+        "scene": "ID699993"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "bing bong"
+        ],
+        "scene": "ID386271"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "bing bong"
+        ],
+        "scene": "ID521363"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID606436"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID652147"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID183997"
+    },
+    {
+        "names": [
+            "sadness"
+        ],
+        "scene": "ID770412"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID373622"
+    },
+    {
+        "names": [
+            "bing bong"
+        ],
+        "scene": "ID256253"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness",
+            "bing bong"
+        ],
+        "scene": "ID946687"
+    },
+    {
+        "names": [
+            "bing bong",
+            "joy"
+        ],
+        "scene": "ID490837"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID373522"
+    },
+    {
+        "names": [
+            "sadness"
+        ],
+        "scene": "ID458125"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID625665"
+    },
+    {
+        "names": [
+            "joy",
+            "bing bong",
+            "sadness"
+        ],
+        "scene": "ID221609"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID311133"
+    },
+    {
+        "names": [
+            "bing bong"
+        ],
+        "scene": "ID463723"
+    },
+    {
+        "names": [
+            "mom",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID529971"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID722347"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID257136"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID463354"
+    },
+    {
+        "names": [
+            "bing bong",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID410700"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID309965"
+    },
+    {
+        "names": [
+            "bing bong",
+            "joy"
+        ],
+        "scene": "ID119539"
+    },
+    {
+        "names": [
+            "anger"
+        ],
+        "scene": "ID718594"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID193687"
+    },
+    {
+        "names": [
+            "sadness",
+            "joy"
+        ],
+        "scene": "ID455513"
+    },
+    {
+        "names": [
+            "mom",
+            "dad"
+        ],
+        "scene": "ID550375"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID453579"
+    },
+    {
+        "names": [
+            "mom",
+            "bing bong",
+            "riley",
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID509313"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID353202"
+    },
+    {
+        "names": [
+            "mom",
+            "bing bong"
+        ],
+        "scene": "ID933121"
+    },
+    {
+        "names": [
+            "mom",
+            "bing bong",
+            "joy"
+        ],
+        "scene": "ID591269"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID152122"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID428745"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID316142"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID986983"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID656642"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID534261"
+    },
+    {
+        "names": [
+            "mom"
+        ],
+        "scene": "ID338769"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID277436"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID701171"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID583924"
+    },
+    {
+        "names": [
+            "joy"
+        ],
+        "scene": "ID194890"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID198237"
+    },
+    {
+        "names": [
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID893854"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID524504"
+    },
+    {
+        "names": [
+            "joy",
+            "anger"
+        ],
+        "scene": "ID282298"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID243701"
+    },
+    {
+        "names": [
+            "disgust",
+            "anger"
+        ],
+        "scene": "ID807744"
+    },
+    {
+        "names": [
+            "disgust",
+            "joy",
+            "sadness",
+            "anger"
+        ],
+        "scene": "ID434223"
+    },
+    {
+        "names": [
+            "sadness"
+        ],
+        "scene": "ID195194"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID940419"
+    },
+    {
+        "names": [
+            "mom",
+            "dad"
+        ],
+        "scene": "ID928519"
+    },
+    {
+        "names": [
+            "riley",
+            "mom",
+            "dad"
+        ],
+        "scene": "ID713811"
+    },
+    {
+        "names": [
+            "anger",
+            "sadness",
+            "disgust",
+            "joy"
+        ],
+        "scene": "ID847672"
+    },
+    {
+        "names": [
+            "dad",
+            "riley",
+            "mom"
+        ],
+        "scene": "ID756802"
+    },
+    {
+        "names": [
+            "joy",
+            "anger",
+            "disgust"
+        ],
+        "scene": "ID926407"
+    },
+    {
+        "names": [
+            "dad-fear",
+            "dad-anger"
+        ],
+        "scene": "ID961920"
+    },
+    {
+        "names": [
+            "mum-disgust",
+            "mum-sadness",
+            "mum-fear"
+        ],
+        "scene": "ID552504"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID513703"
+    },
+    {
+        "names": [
+            "riley"
+        ],
+        "scene": "ID298310"
+    },
+    {
+        "names": [
+            "joy",
+            "sadness"
+        ],
+        "scene": "ID144909"
+    },
+    {
+        "names": [
+            "joy",
+            "anger",
+            "disgust",
+            "sadness"
+        ],
+        "scene": "ID692725"
+    }
+]

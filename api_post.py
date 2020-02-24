@@ -23,8 +23,9 @@ def newUser ():
     
     else:
         dict_addUser = {
+                        'userID': n_user,
                         'userName':name,
-                        'userID': n_user
+                        'userSentiment':0
         }
         coll_users.insert_one(dict_addUser)
 
@@ -41,8 +42,9 @@ def newScene():
         return "Esta escena ya existe"
     else:
         dict_addScene={
-                        'sceneName': scene,
                         'sceneID':n_scene,
+                        'sceneName': scene,
+                        'sceneSentiment': 0,
                         'userNames': names
         }
         coll_scenes.insert_one(dict_addScene)
@@ -72,6 +74,8 @@ def newDialog():
                         'dialogID': n_dialog
         }
         coll_dialogues.insert_one(dict_addDialog)
+    print (dict_addDialog['sceneID'],dict_addDialog['dialog'])
     return f"Dialogo guardado --> id: {n_dialog}!"
+
 
 app.run("0.0.0.0", 2020, debug=True)

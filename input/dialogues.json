@@ -1,0 +1,1635 @@
+[
+    {
+        "name": "joy",
+        "scene": "ID250679",
+        "dialog": "Wait. What? What happened?Joy looks back. Sadness is touching the memory."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID250679",
+        "dialog": "I just touched it."
+    },
+    {
+        "name": "anger",
+        "scene": "ID250679",
+        "dialog": "You can’t change it back?"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID250679",
+        "dialog": "Good going Sadness. Now when Rileythinks of that moment with Dad, she’s gonna feel sad. Bravo."
+    },
+    {
+        "name": "joy",
+        "scene": "ID795714",
+        "dialog": "Just don’t touch any other memoriesuntil we figure out what’s going on.Okay."
+    },
+    {
+        "name": "joy",
+        "scene": "ID582408",
+        "dialog": "Wait, what? What happened?Suddenly a CORE MEMORY ROLLS up to Joy’s feet."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID582408",
+        "dialog": "It looked like one was crooked so Iopened it and then it fell out!Joy pops the memory back in. GOOFBALL ISLAND comes back on."
+    },
+    {
+        "name": "riley",
+        "scene": "ID172795",
+        "dialog": "Woo hoo!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID373910",
+        "dialog": "It’s just that... I wanted to maybehold one.She reaches out to touch one, AND IT STARTS TO GO BLUE."
+    },    
+    {
+        "name": "joy",
+        "scene": "ID373910",
+        "dialog": "!Joy pushes Sadness away before she can touch it."
+    },
+    {
+        "name": "dad",
+        "scene": "ID268548",
+        "dialog": "What can we do? We’ve only got capital to last a month, maybe two. If we can't find investors by then, we’re going to have to lay people off.Riley hears the stress in Dad’s voice."
+    },
+    {
+        "name": "riley",
+        "scene": "ID268548",
+        "dialog": "Mom! Dad! Come kiss me g’night!"
+    },
+    {
+        "name": "mom",
+        "scene": "ID268548",
+        "dialog": "Be right there!"
+    },
+    {
+        "name": "mom",
+        "scene": "ID915247",
+        "dialog": "ENTS LATER her sleeping bag."
+    },    
+    {
+        "name": "disgust",
+        "scene": "ID599303",
+        "dialog": "There are no bears in SanFrancisco!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID599303",
+        "dialog": "I saw a really hairy guy. He lookedlike a bear."
+    },
+    {
+        "name": "joy",
+        "scene": "ID599303",
+        "dialog": "Look, I get it. You guys haveconcerns. But we’ve been through worse! Tell you what: let’s make a list of all the things Riley should be HAPPY about!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID599303",
+        "dialog": "Our friends are back home..."
+    },
+    {
+        "name": "joy",
+        "scene": "ID426817",
+        "dialog": "Okay, I admit it, we had a roughstart. But think of all the good things that--"
+    },
+    {
+        "name": "anger",
+        "scene": "ID426817",
+        "dialog": "No, Joy. There’s absolutely noreason for Riley to be happy right now. Let us handle this."
+    },    
+    {
+        "name": "disgust",
+        "scene": "ID426817",
+        "dialog": "We have no clean clothes. I mean,no one should see us."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID426817",
+        "dialog": "Yeah, we could cry until we can’tbreathe."
+    },
+    {
+        "name": "mom",
+        "scene": "ID426817",
+        "dialog": "Hi honey."
+    },
+    {
+        "name": "mom",
+        "scene": "ID481507",
+        "dialog": "Still no moving van. Now they’resaying it won’t be here ‘til Tuesday, can you believe it?"
+    },
+    {
+        "name": "riley",
+        "scene": "ID952583",
+        "dialog": "Where’s Dad?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID952583",
+        "dialog": "On the phone. This new venture iskeeping him pretty busy. Your dad’s a little stressed -- you know, about getting his new company up and running..."
+    },
+    {
+        "name": "anger",
+        "scene": "ID952583",
+        "dialog": "."
+    },
+    {
+        "name": "mom",
+        "scene": "ID681919",
+        "dialog": "I guess all I really want to sayis: thank you."
+    },
+    {
+        "name": "anger",
+        "scene": "ID177806",
+        "dialog": "Anger drops the controls."
+    },
+    {
+        "name": "mom",
+        "scene": "ID244460",
+        "dialog": "You know, through all thisconfusion you’ve stayed... well, you’ve stayed our happy girl!Mom brushes Riley’s cheek."
+    },
+    {
+        "name": "joy",
+        "scene": "ID290938",
+        "dialog": "Whoa! Well.Huh?."
+    },
+    {
+        "name": "riley",
+        "scene": "ID290938",
+        "dialog": "(smiles)Yeah! Sure."
+    },
+    {
+        "name": "mom",
+        "scene": "ID290938",
+        "dialog": "What did we do to deserve you?(kisses Riley) Sweet dreams."
+    },
+    {
+        "name": "anger",
+        "scene": "ID212248",
+        "dialog": "Well, you can’t argue with Mom.32.“Happy” it is."
+    },    
+    {
+        "name": "disgust",
+        "scene": "ID149346",
+        "dialog": "I’m totally behind you, Joy."
+    },
+    {
+        "name": "joy",
+        "scene": "ID149346",
+        "dialog": "Looks like we’re going into REM. Igot Dream Duty, so I’ll take care of sending these to Long Term. Great day today, guys! Sleep well TEAM HAPPY!The team heads off to bed. Harp music plays."
+    },
+    {
+        "name": "dad",
+        "scene": "ID149346",
+        "dialog": "Well, this is it. The new place.-- except it’s haunted! Organ music. Ghosts howling. The dead mouse rises up into frame.MOUSECome live with me, Riley!The mouse falls over, dead. A bear enters, holding a pizza.PIZZA BEARSomebody order a broccoli pizza?The pizza slices hop up and dance a jig.PIZZA SLICE Eat me! I’m organic!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID562239",
+        "dialog": "Ah, NO, who is in charge ofprogramming down there?! I know I’m not supposed to do this, but...Joy ducks behind the console and REBOOTS it. The dream ends."
+    },
+    {
+        "name": "joy",
+        "scene": "ID134351",
+        "dialog": "We are not going to end the daylike this.Joy has a thought. She recalls a memory.ON THE SCREEN: Riley ice skates with her parents.Joy watches, loving this kid. She shadows Riley, “skating” around."
+    },
+    {
+        "name": "joy",
+        "scene": "ID608721",
+        "dialog": "Hello! Did I wake you?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID608721",
+        "dialog": "DO you have to play that?"
+    },    
+    {
+        "name": "disgust",
+        "scene": "ID608721",
+        "dialog": "When I’m through, Riley will lookso good the other kids will look at their own outfits and barf."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID608721",
+        "dialog": "Really?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID491416",
+        "dialog": "So, the big day! New school, newfriends, huh?"
+    },
+    {
+        "name": "riley",
+        "scene": "ID491416",
+        "dialog": "I know! I’m kinda nervous, but I’mmostly excited! How do I look? Do you like my shirt?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID843613",
+        "dialog": "(heading to the console)"
+    },
+    {
+        "name": "mom",
+        "scene": "ID486902",
+        "dialog": "Very cute! You gonna be okay? Youwant us to walk with you?"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID739864",
+        "dialog": "Mom and Dad? With us in public? Nothank you."
+    },
+    {
+        "name": "joy",
+        "scene": "ID739864",
+        "dialog": "(operating console)I’m on it."
+    },
+    {
+        "name": "riley",
+        "scene": "ID200760",
+        "dialog": "Nope, I’m fine. Bye Mom! Bye Dad!"
+    },
+    {
+        "name": "dad",
+        "scene": "ID200760",
+        "dialog": "(covering phone)Have a good day at school, Monkey! All three make monkey sounds at each other."
+    },
+    {
+        "name": "mom",
+        "scene": "ID540303",
+        "dialog": "Have a great day, sweetheart."
+    },
+    
+    {
+        "name": "disgust",
+        "scene": "ID559212",
+        "dialog": "Okay, we’ve got a group of coolgirls at 2 o’clock."
+    },
+    {
+        "name": "joy",
+        "scene": "ID958818",
+        "dialog": "How do you know?"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID958818",
+        "dialog": "Double ears pierced, infinityscarf...A group of makeup-wearing girls look back at Riley."
+    },    
+    {
+        "name": "joy",
+        "scene": "ID871330",
+        "dialog": "Don't worry. I got this.Joy pushes a lever."
+    },
+    {
+        "name": "riley",
+        "scene": "ID772486",
+        "dialog": "Uhh... okay. My name is RileyAndersen. I’m from Minnesota. And now I live here.TEACHERAnd how about Minnesota?... Can youtell us something about it? Well you certainly get a lot more snow than we do."
+    },
+    {
+        "name": "joy",
+        "scene": "ID823667",
+        "dialog": "(laughs)She’s hilarious! She turns a lever.39."
+    },
+    {
+        "name": "riley",
+        "scene": "ID287522",
+        "dialog": "Yeah, it gets pretty cold. The lakefreezes over, and that’s when we play hockey. I’m on a great team. We’re called the Prairie Dogs. My friend Meg plays forward. My Dad’s the coach. Pretty much everyone in my family skates."
+    },
+    {
+        "name": "riley",
+        "scene": "ID795348",
+        "dialog": "It’s a kind of family tradition. Wego out on the lake almost every weekend."
+    },
+    {
+        "name": "riley",
+        "scene": "ID941910",
+        "dialog": "Or we did, ‘til I moved away."
+    },    
+    {
+        "name": "anger",
+        "scene": "ID264855",
+        "dialog": "Huh?/Hey, what gives?/What?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID264855",
+        "dialog": "Hey--She spots Sadness, who is guiltily touching the memory."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID264855",
+        "dialog": "Oh yeah, I know. I’m sorry."
+    },
+    {
+        "name": "riley",
+        "scene": "ID220223",
+        "dialog": "(sniffling)We used to play tag and stuff..."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID220663",
+        "dialog": "Cool kids whispering at 3 o’clock!"
+    },
+   
+    {
+        "name": "joy",
+        "scene": "ID722608",
+        "dialog": "Oh no.Joy tries pulling the memory. Anger, Fear and Disgust help."
+    },
+    {
+        "name": "riley",
+        "scene": "ID722608",
+        "dialog": "But everything’s different now.Since we moved... TEARS stream down Riley’s face."
+    },
+  
+    {
+        "name": "sadness",
+        "scene": "ID727579",
+        "dialog": "IS DRIVING."
+    },
+    {
+        "name": "joy",
+        "scene": "ID727579",
+        "dialog": "What? No! Sadness, what are youdoing?Joy finally yanks the memory out. She runs to the console and pulls Sadness away from the controls."
+    },
+    {
+        "name": "anger",
+        "scene": "ID727579",
+        "dialog": "Whoa!"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID727579",
+        "dialog": "But it’s blue!The bright blue core memory rolls through the memory shelf and STARTS TOWARDS THE CORE MEMORY HOLDER!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID595742",
+        "dialog": "Ahh!Joy tosses the blue core memory aside to collect the yellow core memories.Sadness grabs the blue core memory and heads to the Core Memory Holder to plug it in. Joy lunges, knocking the blue core memory out of Sadness’s hands. It’s SUCKED UP the vacuum tube.Joy trips backward. In the chaos a yellow core memory rolls toward the tube."
+    },
+    {
+        "name": "anger",
+        "scene": "ID559582",
+        "dialog": "Can I say that curse word now?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID141914",
+        "dialog": "Oh no...(gathering memories)One, two, three... okay, got ’em. Wha-- where are we?Joy takes in the shelving around her."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID141914",
+        "dialog": "Hoh... Riley’s Islands ofPersonality. They’re ALL down! This is bad."
+    },
+    {
+        "name": "mom",
+        "scene": "ID697402",
+        "dialog": "So as it turns out the green trashcan is not recycling, it’s for greens. Like compost. And eggshells."
+    },
+    {
+        "name": "dad",
+        "scene": "ID697402",
+        "dialog": "(not really listening)Mmm."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID618225",
+        "dialog": "Riley is acting so weird. Why isshe acting so weird?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID618225",
+        "dialog": "What do you expect? All the islandsare down."
+    },
+    
+    {
+        "name": "mom",
+        "scene": "ID618225",
+        "dialog": "Hey, Riley. I’ve got good news!"
+    },
+    {
+        "name": "mom",
+        "scene": "ID762470",
+        "dialog": "I found a junior hockey leagueright here in San Francisco. And get this: try-outs are tomorrow after school. What luck, right?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID855252",
+        "dialog": "Hockey?"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID855252",
+        "dialog": "Uh-oh. What do we do?"
+    },
+    
+    {
+        "name": "mom",
+        "scene": "ID855252",
+        "dialog": "Won’t it be great to be back out onthe ice?"
+    },
+    {
+        "name": "riley",
+        "scene": "ID908494",
+        "dialog": "(sarcastic)Oh yeah, that sounds fantastic."
+    },
+   
+    {
+        "name": "disgust",
+        "scene": "ID569197",
+        "dialog": "Uh, because I’m NOT Joy."
+    },
+    {
+        "name": "mum-sadness",
+        "scene": "ID147426",
+        "dialog": "Did you guys pick up on that?Uh-huh."
+    },
+
+    {
+        "name": "mum-disgust",
+        "scene": "ID147426",
+        "dialog": "Oh yeah/Definitely."
+    },
+    {
+        "name": "mum-anger",
+        "scene": "ID147426",
+        "dialog": "Should we ask her?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID319290",
+        "dialog": "So! How was the first day ofschool?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID187856",
+        "dialog": "She’s probing us."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID187856",
+        "dialog": "I'm done.(to Fear)YOU pretend to be Joy."
+    },
+    
+    {
+        "name": "riley",
+        "scene": "ID114929",
+        "dialog": "(nervous)It was fine, I guess, I don't know."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID252544",
+        "dialog": "Oh, very smooth, that was JUST likeJoy."
+    },
+    {
+        "name": "mum-anger",
+        "scene": "ID212423",
+        "dialog": "Something’s definitely going on."
+    },
+    {
+        "name": "mum-disgust",
+        "scene": "ID212423",
+        "dialog": "She’s never acted like this before.What should we do?"
+    },
+    {
+        "name": "mum-sadness",
+        "scene": "ID212423",
+        "dialog": "We’re going to find out what’shappening. But we’ll need support. Signal the husband."
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID420573",
+        "dialog": "Uh-oh. She’s looking at us.(turns off the memory) What did she say?"
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID420573",
+        "dialog": "What? Uh, sorry, Sir. No one waslistening.DAD'S"
+    },
+    {
+        "name": "anger",
+        "scene": "ID420573",
+        "dialog": "Is it garbage night? We left thetoilet seat up? What? What is it, woman, what?!?"
+    },
+    {
+        "name": "mum-disgust",
+        "scene": "ID916231",
+        "dialog": "(re: Dad on the screen)He’s making that stupid face again."
+    },
+    {
+        "name": "mum-anger",
+        "scene": "ID916231",
+        "dialog": "I could strangle him right now!"
+    },
+    {
+        "name": "mum-sadness",
+        "scene": "ID916231",
+        "dialog": "Signal him again."
+    },
+    {
+        "name": "dad",
+        "scene": "ID871940",
+        "dialog": "Ahh, so, Riley! How was school?"
+    },
+    
+    {
+        "name": "mum-disgust",
+        "scene": "ID340341",
+        "dialog": "You gotta be kidding me!/He reallyneeds to start paying attention./ Is he paying attention at all?"
+    },
+    {
+        "name": "mum-anger",
+        "scene": "ID340341",
+        "dialog": "For THIS we gave up that Brazilianhelicopter pilot?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID831556",
+        "dialog": "Move! I’LL be Joy."
+    },
+    {
+        "name": "riley",
+        "scene": "ID968769",
+        "dialog": "(snarky)School was great, alright?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID968769",
+        "dialog": "Riley, is everything okay?Riley rolls her eyes."
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID312478",
+        "dialog": "Sir, she just rolled her eyes at us."
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID312478",
+        "dialog": "What is her deal? Alright, make ashow of force. I don’t want to have to put “the Foot” down."
+    },
+    {
+        "name": "dad",
+        "scene": "ID455549",
+        "dialog": "Riley, I do NOT like this newattitude."
+    },
+    {
+        "name": "anger",
+        "scene": "ID475450",
+        "dialog": "Oh I’ll show you attitude, old man."
+    },
+    
+    {
+        "name": "riley",
+        "scene": "ID334707",
+        "dialog": "What is your problem? Just leave mealone."
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID996279",
+        "dialog": "Sir! Reporting high levels of sass!"
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID996279",
+        "dialog": "Take it to DEFCON 2.Sirens begin to BLARE."
+    },
+    {
+        "name": "dad",
+        "scene": "ID525367",
+        "dialog": "Listen young lady, I don’t knowwhere this disrespectful attitude came from..."
+    },
+    {
+        "name": "anger",
+        "scene": "ID606357",
+        "dialog": "You want a piece of this, Pops?Come and get it!Anger grasps two levers with all his might."
+    },
+    {
+        "name": "riley",
+        "scene": "ID188840",
+        "dialog": "Yeah, well... well..."
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID595433",
+        "dialog": "Here it comes... Prepare the Foot!Dad’s Emotions uncover “Launch Station” buttons, insert keys."
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID595433",
+        "dialog": "Keys to safety position! Ready tolaunch on your command, Sir!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID202863",
+        "dialog": ", flames and yell at full blast, pushes up the levers."
+    },
+    {
+        "name": "riley",
+        "scene": "ID874908",
+        "dialog": "Just SHUT UP!Dad and Mom are shocked."
+    },
+    
+    {
+        "name": "dad",
+        "scene": "ID645946",
+        "dialog": "That’s it, go to your room! Now!Riley pushes away from the table and goes upstairs in a huff."
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID258865",
+        "dialog": "The Foot is down! The Foot is down!They all CHEER."
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID258865",
+        "dialog": "Good job gentlemen. That could havebeen a disaster."
+    },
+    {
+        "name": "mum-sadness",
+        "scene": "ID561423",
+        "dialog": "Well, that was a disaster.Mom’s Anger recalls a memory: the Brazilian helicopter pilot.HELICOPTER PILOT Come fly with me, gatinha.They all SIGH."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID281282",
+        "dialog": "We’re gonna walk out there? Onthat?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID281282",
+        "dialog": "It’s the quickest way back."
+    },
+    {
+        "name": "dad",
+        "scene": "ID967558",
+        "dialog": "Hey.Riley’s in her sleeping bag. She doesn’t answer."
+    },
+    {
+        "name": "anger",
+        "scene": "ID415833",
+        "dialog": "He’s trying to start up Goofball.Fear looks at the empty Core Memory Holder, then out the window: GOOFBALL ISLAND is dark and silent."
+    },
+    {
+        "name": "dad",
+        "scene": "ID899192",
+        "dialog": "Come on.(tries more monkey noises) Riley looks at Dad, but TURNS AWAY."
+    },
+    {
+        "name": "joy",
+        "scene": "ID609493",
+        "dialog": "Ahhh! Go back! RUN! RUN! RUN!They run back onto Goofball Island as the lightline crumbles."
+    },
+    {
+        "name": "joy",
+        "scene": "ID796413",
+        "dialog": "What-- ?Joy watches it sink. FLASH CUTS of Young Riley:* Riley twirling until she falls over.* The family jumping on a trampoline.* Riley riding on Dad’s shoulders, making silly faces with ice cream all over her face."
+    },
+    {
+        "name": "dad",
+        "scene": "ID590655",
+        "dialog": "I get it, you need some alone time.We’ll talk later."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID573157",
+        "dialog": "We have a major problem."
+    },
+   
+    {
+        "name": "sadness",
+        "scene": "ID923486",
+        "dialog": "We lost Goofball Island. That meansshe can lose Friendship, and Hockey, and Honesty, and Family! You can fix this, right Joy?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID923486",
+        "dialog": "I... I don’t know.(Sadness sighs in despair) But we have to try. C’mon.The sky darkens."
+    },
+    {
+        "name": "joy",
+        "scene": "ID402208",
+        "dialog": "This is not working. Are we gettingclose?"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID402208",
+        "dialog": "Yeah. Just another right. And aleft. Then another left, and a right..."
+    },
+    {
+        "name": "male forgetter",
+        "scene": "ID402208",
+        "dialog": "Forget ‘em!"
+    },
+    {
+        "name": "female forgetter",
+        "scene": "ID644495",
+        "dialog": "Phone numbers. We don’t need all ofthese. They’re in her phone."
+    },
+    {
+        "name": "male forgetter",
+        "scene": "ID644495",
+        "dialog": "Just forget all of that. Please.Forget it!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID644495",
+        "dialog": "Excuse me. Hi. I need to findFriendship Island..."
+    },
+    {
+        "name": "joy",
+        "scene": "ID515682",
+        "dialog": "Hey! Bring those back."
+    },
+    {
+        "name": "female forgetter",
+        "scene": "ID515682",
+        "dialog": "They’re in the dump. Nothing comesback from the dump."
+    },
+    {
+        "name": "male forgetter",
+        "scene": "ID515682",
+        "dialog": "Yeah. Look lady, this is our job,OK?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID929610",
+        "dialog": "Wha-- this again!?!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID899903",
+        "dialog": "(following them)Wait! Do you know how to get to Friendship Island?!"
+    },
+    {
+        "name": "riley",
+        "scene": "ID315340",
+        "dialog": "Yeah, it’s good. What happened withthe playoffs?MEGWe won the first game. Coach sayswe might actually go to the finals this year. Oh, and we’ve got this new girl on the team. She’s so cool.."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID315340",
+        "dialog": "Oh, she did NOT just say that."
+    },
+    
+    {
+        "name": "anger",
+        "scene": "ID191873",
+        "dialog": "You like to read minds, Meg? I gotsomething for you to read right here! (grabbing the controls)"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID191873",
+        "dialog": "No no no, what are you doing?!"
+    },
+   
+    {
+        "name": "riley",
+        "scene": "ID836421",
+        "dialog": "I gotta go.62.MEG What?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID213478",
+        "dialog": "What...?"
+    },
+    {
+        "name": "joy",
+        "scene": "ID732563",
+        "dialog": "Friendship Island?The FRIENDSHIP CORE MEMORY Joy holds fades. She runs forward."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID732563",
+        "dialog": "Oh, Riley loved that one. And nowit's GONE. Goodbye friendship, hello loneliness.Joy sees Hockey Island in the distance."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID732563",
+        "dialog": "(talking to the memories)Ohhh, look at you, you’re a KEEPER!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID177889",
+        "dialog": "Excuse me...?"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID177889",
+        "dialog": "(jumping up; cornered)Ahhhh! Uh, I (grabs a --DIVERSION!He THROWS IT and makeswas looking for, uh-- memory)a run for it."
+    },
+    {
+        "name": "joy",
+        "scene": "ID779419",
+        "dialog": "It is so great to see you again. Igotta tell you, I am such a huge fan of your work. Do you remember when you and Riley were in a band?FLASH CUTS of their adventures:*Riley bangs on pots and pans, Bing Bong plays his trunk."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID779419",
+        "dialog": "(V.O.) Yeah, I blow a mean nose.*Bing Bong runs on ceiling, Riley chases after him."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID779419",
+        "dialog": "What exactly are you supposed tobe?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID342681",
+        "dialog": "ENTS LATER Two Mind Workers approach the same door our trio entered.ABSTRACT WORKER #1 Okay, what abstract concept are wetrying to comprehend today?ABSTRACT WORKER #2 (checking a clipboard)Um... loneliness.ABSTRACT WORKER #1Hm. Looks like there’s something inthere. I’m going to turn it on for a minute and burn out the gunk.She closes the door."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID793347",
+        "dialog": "What’d I tell ya? You’ll be atHeadquarters in no time.BAM! The door closes behind them. The LIGHTS GO ON."
+    },
+    {
+        "name": "joy",
+        "scene": "ID793347",
+        "dialog": "Whoa! What's happening?!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID793347",
+        "dialog": "Oh no. They turned it on."
+    },
+    {
+        "name": "joy",
+        "scene": "ID535578",
+        "dialog": "Wait! Stop! Stop! STOP!POP! Joy goes from non-representational to two-dimensional. She falls down flat as the train speeds off.POP! The three transform back to normal."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID535578",
+        "dialog": "I did, but wow, we should NOT havegone in there. That was dangerous! They really should put up a sign."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID535578",
+        "dialog": "Uh-huh. Through there.Bing Bong leads them towards the impressive gates of..."
+    },
+    {
+        "name": "joy",
+        "scene": "ID210543",
+        "dialog": "Imaginationland?"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID210543",
+        "dialog": "Sure! I come here all the time. I’mpractically the mayor. Hey, you guys hungry? There’s French Fry Forest!(starts eating)Nom nom nom, delicious!Joy is loving this."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID210543",
+        "dialog": "Hohh... Participation award..."
+    },
+
+    {
+        "name": "bing bong",
+        "scene": "ID918120",
+        "dialog": "Oh no, lava! Whooo! Whawhoooo! Imaginationland isthe best! Sadness tries to jump to a rock, barely makes it."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID918120",
+        "dialog": "Is it all going to be sointeractive?*"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID316435",
+        "dialog": "Hey, look! The House of Cards!!Ooh, wait, hang on just a minute...From a nearby garage made of cards, Bing Bong pulls a wagon."
+    },
+    {
+        "name": "joy",
+        "scene": "ID316435",
+        "dialog": "Your rocket!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID623637",
+        "dialog": "I love Imaginationland!"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID623637",
+        "dialog": "Isn’t it great? And there’s alwayssomething new, like...A giant machine. A conveyer belt reveals a handsome teenager."
+    },
+    {
+        "name": "mom",
+        "scene": "ID465697",
+        "dialog": "This should be fun. New team, newfriends! These kids look pretty good -- considering they're from San Francisco. Heh heh!HOCKEY COACH Okay Andersen, you're up!"
+    },
+    {
+        "name": "riley",
+        "scene": "ID465697",
+        "dialog": "I gotta go.Riley heads onto the ice."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID761757",
+        "dialog": "Luck isn’t gonna help us now. Ifshe tries to use Hockey Island, it’s going down."
+    },
+
+    {
+        "name": "disgust",
+        "scene": "ID421845",
+        "dialog": "(hiding behind a sofa)It’s like we don't learn anything."
+    },
+    {
+        "name": "anger",
+        "scene": "ID348537",
+        "dialog": "That’s it!"
+    },
+    
+    {
+        "name": "mom",
+        "scene": "ID957399",
+        "dialog": "Riley, what’s wrong?"
+    },
+    {
+        "name": "riley",
+        "scene": "ID957399",
+        "dialog": "Let’s go."
+    },
+    {
+        "name": "joy",
+        "scene": "ID224182",
+        "dialog": "Hockey? Oh no... no, she loveshockey. She can’t give up hockey.Joy pulls out the HOCKEY CORE MEMORY: Riley’s first goal."
+    },
+    {
+        "name": "joy",
+        "scene": "ID703939",
+        "dialog": "Bing Bong, we have to get to thatstation."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID703939",
+        "dialog": "Sure thing. This way, just pastGraham Cracker Castle. Hey. That’s weird. Graham Cracker Castle used to be right here. I wonder why they moved it?He walks on, concerned, LEAVING HIS WAGON BEHIND HIM."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID703939",
+        "dialog": "(sits beside Bing Bong)I’m sorry they took your rocket.They took something It’s gone, forever."
+    },
+    {
+        "name": "joy",
+        "scene": "ID371844",
+        "dialog": "We made it! We’re finally going toget home!Twirling, she knocks over two boxes labeled “FACTS” and “OPINIONS.” Small objects spill out of both."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID371844",
+        "dialog": "Eh, don’t worry about it -- happensall the time."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID366904",
+        "dialog": "On a scale of one to ten, I givethis day an F."
+    },
+    {
+        "name": "anger",
+        "scene": "ID366904",
+        "dialog": "Well why don’t we quit standingaround and DO something?"
+    },
+    
+    {
+        "name": "joy",
+        "scene": "ID699993",
+        "dialog": "Huh?The engineer and his assistant hop off the engine."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID699993",
+        "dialog": "You mean we’re stuck here untilmorning?"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID699993",
+        "dialog": "Yeah, the Train of Thought doesn’trun while she’s asleep."
+    },
+    {
+        "name": "joy",
+        "scene": "ID386271",
+        "dialog": "Whoa! This place is huge."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID386271",
+        "dialog": "Yeah, it looks so much smaller thanI expected.They walk past dream “movie posters.”"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID386271",
+        "dialog": "Whoa! “I Can Fly”? I love that one!Joy spots a Unicorn sitting in a director’s chair."
+    },
+    
+    {
+        "name": "joy",
+        "scene": "ID521363",
+        "dialog": "Okay, how are we gonna wake her up?"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID521363",
+        "dialog": "Well, she wakes up sometimes whenshe has a scary dream. We could scare her."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID521363",
+        "dialog": "Yeah?She gives him the satchel containing the CORE MEMORIES."
+    },
+ 
+    {
+        "name": "riley",
+        "scene": "ID606436",
+        "dialog": "VOICEMy name’s Riley Andersen, I’m fromMinnesota and now I live here. A STUDENT points to the camera.DREAM STUDENT #1Ew, look! Her teeth are falling out!A crew member drops handfuls of teeth in front of the camera."
+    },
+ 
+    {
+        "name": "joy",
+        "scene": "ID652147",
+        "dialog": "Ready?"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID652147",
+        "dialog": "I don’t think this happy thing isgoing to work. But if we scare her--"
+    },
+ 
+    {
+        "name": "joy",
+        "scene": "ID183997",
+        "dialog": "(to Bing Bong)Psst. You’re on! Go!Bing Bong pulls a rope. Balloons drop! A colorful backdrop!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID770412",
+        "dialog": "Joy, this isn’t working.Bing Bong knocks over a light, causing spooky uplighting. Sadness tries to stop. The dog costume RIPS IN HALF."
+    },
+    
+    {
+        "name": "joy",
+        "scene": "ID373622",
+        "dialog": "Huh? Sadness, whatCome back here!"
+    },
+    
+    {
+        "name": "bing bong",
+        "scene": "ID256253",
+        "dialog": "Hi Riley, it’s me! Who’s yourfriend who likes to play? Bing Bong, Bing Bong!"
+    },
+    
+    {
+        "name": "joy",
+        "scene": "ID946687",
+        "dialog": "Sadness! You are ruining thisdream! You’re scaring her!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID946687",
+        "dialog": "But look, it’s working!The SLEEP INDICATOR is starting to tip. Joy’s eyes widen."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID946687",
+        "dialog": "DREAM DIRECTOR (to camera operator)Pan away! Pan away!The camera pans away to Rainbow Unicorn making off with a giant cupcake platter from the craft services table."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID490837",
+        "dialog": "Ow! Ow! Cut that out. Ow! Please...you can’t do this! (MORE)"
+    },
+  
+    {
+        "name": "joy",
+        "scene": "ID490837",
+        "dialog": "No, no no no, there go the corememories...!The door opens. SPOOKY LIGHT spills out."
+    },
+    {
+        "name": "joy",
+        "scene": "ID373522",
+        "dialog": "What is this place?"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID373522",
+        "dialog": "(hushed tone)The Subconscious. It’s where they take all the troublemakers."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID458125",
+        "dialog": "Oh! You caught us! Heh.SUBCONSCIOUS GUARD FRANK Get back in there! No escaping!The guards shove them through and slam the door."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID625665",
+        "dialog": "I don’t like it here. It’s wherethey keep Riley’s darkest fears. Joy spots a dark shape ahead:"
+    },
+    {
+        "name": "joy",
+        "scene": "ID625665",
+        "dialog": "It’s broccoli!Behind them:"
+    },
+    {
+        "name": "joy",
+        "scene": "ID221609",
+        "dialog": "Bing Bong!Joy?"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID221609",
+        "dialog": "But how?Joy and Sadness look back at the clown.Oh no."
+    },
+    {
+        "name": "mom",
+        "scene": "ID311133",
+        "dialog": "ENTS LATERThe UNICORN DREAM is mid-production: a Glitter Dance Party, rainbows and sparkles aplenty. The crew is bored."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID463723",
+        "dialog": "Come on, let’s go!They bolt, leaving Jangles gleefully demolishing the sets."
+    },
+    {
+        "name": "mom",
+        "scene": "ID529971",
+        "dialog": "ENTS LATEROur trio leap aboard just as the train picks up speed."
+    },
+    {
+        "name": "joy",
+        "scene": "ID529971",
+        "dialog": "Ha ha! We made it!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID529971",
+        "dialog": "Whoo-hoo! Ha ha!*"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID722347",
+        "dialog": "What is going on?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID722347",
+        "dialog": "He did it again."
+    },
+    
+    {
+        "name": "anger",
+        "scene": "ID257136",
+        "dialog": "She took it. There’s no turningback."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID257136",
+        "dialog": "So, how’re we gonna get toMinnesota from here?"
+    },
+   
+    {
+        "name": "anger",
+        "scene": "ID463354",
+        "dialog": "There’s a bus leaving tomorrow.Perfect."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID463354",
+        "dialog": "A ticket costs money. How do we getmoney?"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID410700",
+        "dialog": "How about this, huh? Isn’t thisnice? You can see everything from up here! Look, there's Inductive Reasoning. There's Deja Vu. There's Language Processing! There's Deja Vu. There's Critical Thinking! There's Deja Vu. Hey look at this, guys! Memories!Bing Bong ducks inside the train. Joy looks over to Sadness."
+    },
+    {
+        "name": "joy",
+        "scene": "ID410700",
+        "dialog": "Hey, that was a good idea. Aboutscaring Riley awake. You’re not so bad."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID410700",
+        "dialog": "Really?"
+    },
+    {
+        "name": "mom",
+        "scene": "ID309965",
+        "dialog": "But I just don’t understand, why did our moving van even go to Texas?Riley spots Mom’s purse on the table."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID119539",
+        "dialog": "Workers grab Joy, Sadness and Bing Bong just as the train slides off the cliff and drops into the dump below.Joy looks towards."
+    },
+    {
+        "name": "joy",
+        "scene": "ID119539",
+        "dialog": "That was our way home! We lostanother island... what is happening?WORKER #1Haven’t you heard? Riley is runningaway."
+    },
+   
+    {
+        "name": "anger",
+        "scene": "ID718594",
+        "dialog": "Look. We have no core memories. Youwant Riley to be happy? Let’s get back to Minnesota and make more."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID193687",
+        "dialog": "If we hurry, we can still stop her.(points)"
+    },
+    {
+        "name": "joy",
+        "scene": "ID193687",
+        "dialog": "Family Island. Let’s go!The trio run along the cliff edge towards the last island."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID455513",
+        "dialog": "Joy! Joy! It’s too dangerous! Wewon’t make it in time!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID455513",
+        "dialog": "But that’s our only way back!The rumbling causes an END CAP of a nearby shelf to break, exposing an open tube. A memory gets sucked up and shot towards.."
+    },
+    {
+        "name": "mom",
+        "scene": "ID550375",
+        "dialog": "Have a great day, sweetheart."
+    },
+    {
+        "name": "dad",
+        "scene": "ID550375",
+        "dialog": "See you after school, monkey."
+    },
+    {
+        "name": "joy",
+        "scene": "ID453579",
+        "dialog": "Go! Run! RUN!Joy steps into the disconnected TUBE, ready to sail up to.Sadness tries to climb in, but there’s not enough room; she jostles, pressing against the satchel. The CORE MEMORIES start to turn blue."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID453579",
+        "dialog": "Oh no, I did it again...."
+    },
+    {
+        "name": "mom",
+        "scene": "ID509313",
+        "dialog": "ENTS LATERJoy falls, clutching the satchel of core memories.She lands hard, rolling down a hill of faded memories. She sits up, looks around. The satchel! All the memories are still there. Panicked, Joy runs up the hills of memories.Off in another part of the dump, Bing Bong comes to."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID509313",
+        "dialog": "Bing Bong notices his hand beginning to fade. He gasps."
+    },
+    {
+        "name": "riley",
+        "scene": "ID509313",
+        "dialog": "We used to play tag and stuff.Joy recognizes this. She finds Sadness’ BLUE CORE MEMORY: Riley crying in class."
+    },
+    {
+        "name": "joy",
+        "scene": "ID509313",
+        "dialog": "Do you remember how she used tostick her tongue out when she was coloring?Another memory: Riley talking to a bug."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID509313",
+        "dialog": "(V.O.)It was the day the Prairie Dogslost the big playoff game. Riley missed the winning shot. She felt awful. She wanted to quit.IN THE MEMORY: Mom and Dad come to console Riley. Joy fast forwards.IN THE MEMORY: The hockey team lifts Riley on their shoulders and cheers. Riley smiles."
+    },
+    {
+        "name": "joy",
+        "scene": "ID353202",
+        "dialog": "Hop in!Both inside, Bing Bong pushes off. They speed down a slope to gain momentum, singing all the way. They reach the bottom and shoot up another hill, launching up towards the cliff top.Joy and Bing Bong enthusiastically, if not desperately, sing at the top of their lungs.Not even close. They crash back to the bottom.C’mon!"
+    },
+    {
+        "name": "mom",
+        "scene": "ID933121",
+        "dialog": "ENTS LATERThey shoot down a taller hill for another go. They SING faster and louder.Joy reaches for the ledge but they fall with a thud.Bing Bong stands. There’s no way they’ll make it. He looks up at the ledge and then to his hand -- it’s disappearing!"
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID933121",
+        "dialog": "Come on, Joy. One more time. I’vegot a feeling about this one."
+    },
+    {
+        "name": "mom",
+        "scene": "ID591269",
+        "dialog": "ENTS LATERHurdling down the largest hill yet, they continue to sing Bing Bong’s song.."
+    },
+    {
+        "name": "bing bong",
+        "scene": "ID591269",
+        "dialog": "Louder! Louder, Joy! Sing louder!Bing Bong times it just right... and jumps out of the wagon.Without his weight, the Joy gains momentum. She’s unaware of Bing Bong’s absence."
+    },
+    {
+        "name": "joy",
+        "scene": "ID591269",
+        "dialog": "We’re gonna make it!The rocket makes it over the ledge! It crashes atop the cliff."
+    },
+    {
+        "name": "mom",
+        "scene": "ID152122",
+        "dialog": "We’re home! Riley? Riley!"
+    },
+    {
+        "name": "mom",
+        "scene": "ID428745",
+        "dialog": "I’ll call her cell.."
+    },
+    
+    {
+        "name": "mom",
+        "scene": "ID316142",
+        "dialog": "is calling."
+    },
+    
+    {
+        "name": "disgust",
+        "scene": "ID986983",
+        "dialog": "What do we do?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID986983",
+        "dialog": "Riley needs to get core memories.We keep going."
+    },
+    {
+        "name": "joy",
+        "scene": "ID656642",
+        "dialog": "Sadness!She sees Family Island rumble, pieces beginning to break off. She frantically continues on."
+    },
+    {
+        "name": "joy",
+        "scene": "ID534261",
+        "dialog": "Sadness? Sadness?(no answer; desperate)C’mon Sadness, where are you? Okay. If I were Sadness, where would I be?Joy slumps to the ground. She kicks a leg up in the air."
+    },
+    {
+        "name": "mom",
+        "scene": "ID338769",
+        "dialog": "ENT LATERRiley walks out of the bus depot and into the advancing line."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID277436.",
+        "dialog": "Oh no. It’s Mom again. What do wedo?!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID277436",
+        "dialog": "Uh... Uh...Boom! Family Island rumbles behind them.QUICK INTERCUTS between the line getting shorter, Riley declining Mom’s call, and Family Island crumbling. Finally..."
+    },
+    {
+        "name": "anger",
+        "scene": "ID701171",
+        "dialog": "This is madness! She shouldn’t runaway!"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID701171",
+        "dialog": "Let’s get this idea out of herhead.They rush to unplug the idea."
+    },
+    {
+        "name": "joy",
+        "scene": "ID583924",
+        "dialog": "Sadness!Joy rounds a corner and spots Sadness far down the next row."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID583924",
+        "dialog": "Joy?Inexplicably, Sadness turns and runs away."
+    },
+    {
+        "name": "joy",
+        "scene": "ID194890",
+        "dialog": "Come back!Joy uses a super-long fry to vault over the mound of fries.Sadness!."
+    },
+    {
+        "name": "joy",
+        "scene": "ID198237",
+        "dialog": "What? Sadness!"
+    },
+    {
+        "name": "sadness",
+        "scene": "ID198237",
+        "dialog": "(crying)I only make everything worse!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID893854",
+        "dialog": "It’s stuck!"
+    },
+    {
+        "name": "disgust",
+        "scene": "ID893854",
+        "dialog": "Oh great."
+    },
+    
+    {
+        "name": "disgust",
+        "scene": "ID524504",
+        "dialog": "I got it! Make her feel scared!That’ll make her change her mind!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID524504",
+        "dialog": "Let me try!Disgust and Fear pound on the console buttons."
+    },
+    
+    {
+        "name": "joy",
+        "scene": "ID282298",
+        "dialog": "Hey! Hey, look at me. Did you meanwhat you said before?"
+    },
+    {
+        "name": "anger",
+        "scene": "ID282298",
+        "dialog": ".IMAGINARY BOYFRIENDI would die for Riley! I would diefor Riley!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID243701",
+        "dialog": "(to herself)This is crazy, this is crazy... No, no, no! Joy! Be positive.(beat)I am POSITIVE this is crazy!.Joy spots the trampoline on Family Island, then Sadness floating away. She times it..."
+    },
+    
+    {
+        "name": "disgust",
+        "scene": "ID807744",
+        "dialog": "It’s Joy!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID807744",
+        "dialog": "Stand back! Arrrrgh!Anger throws a chair at the window. It bounces off."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID434223",
+        "dialog": "Joy, you’ve got to fix this. Get upthere."
+    },
+    {
+        "name": "joy",
+        "scene": "ID434223",
+        "dialog": "Sadness, it’s up to you."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID434223",
+        "dialog": "Joy pushes Sadness towards the console.Me?.Sadness?!?"
+    },
+ 
+    {
+        "name": "sadness",
+        "scene": "ID195194",
+        "dialog": "She grips the Idea Bulb. The console is now completely black."
+    },
+    {
+        "name": "riley",
+        "scene": "ID940419",
+        "dialog": "Wait! Stop! I wanna get off.The bus stops. Riley runs to the front and out the door."
+    },
+    {
+        "name": "mom",
+        "scene": "ID928519",
+        "dialog": "Alright. Thank you. We will. (to Dad)Her teacher hasn’t even seen Riley all day."
+    },
+    {
+        "name": "dad",
+        "scene": "ID928519",
+        "dialog": "What? I can't believe this."
+    },
+    {
+        "name": "riley",
+        "scene": "ID713811",
+        "dialog": "I know you don’t want me to but...I miss home. I miss Minnesota. Mom and Dad, concerned, listen quietly."
+    },
+    {
+        "name": "mom",
+        "scene": "ID713811",
+        "dialog": "Oh sweetie..."
+    },
+    {
+        "name": "dad",
+        "scene": "ID713811",
+        "dialog": "We’re not mad. You know what? Imiss Minnesota too. I miss the woods where we took hikes."
+    },
+    
+    {
+        "name": "anger",
+        "scene": "ID847672",
+        "dialog": "Friendship Island has expanded.Glad they finally opened that Friendly Arguments section."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID847672",
+        "dialog": "I like Tragic Vampire RomanceIsland."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID847672",
+        "dialog": "Fashion Island. Everyone shut up!"
+    },
+    {
+        "name": "joy",
+        "scene": "ID847672",
+        "dialog": "Say what you want, I think it’s allbeautiful.WORKER FRITZAlright!The Emotions turn to see workers at a new, larger console.WORKER FRITZ (CONT’D) There you go. Your new expandedconsole is up and running. The new console lights up."
+    },
+    {
+        "name": "dad",
+        "scene": "ID756802",
+        "dialog": "Now when you get out there, you beaggressive!"
+    },
+    {
+        "name": "riley",
+        "scene": "ID756802",
+        "dialog": "(embarrassed)I know, Dad."
+    },
+    {
+        "name": "mom",
+        "scene": "ID756802",
+        "dialog": "-- but not too aggressive."
+    },
+    {
+        "name": "joy",
+        "scene": "ID926407",
+        "dialog": "Awww..."
+    },
+    {
+        "name": "",
+        "scene": "ID926407",
+        "dialog": "They love us!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID926407",
+        "dialog": "Yeah, Mom and Dad are pretty cool."
+    },
+    {
+        "name": "disgust",
+        "scene": "ID926407",
+        "dialog": "Guys, of course they are. But wecan’t SHOW IT!"
+    },
+    {
+        "name": "dad-fear",
+        "scene": "ID961920",
+        "dialog": "She loved the face painting!"
+    },
+    {
+        "name": "dad-anger",
+        "scene": "ID961920",
+        "dialog": "Ha! Told you it was a great idea!Dad turns to Mom. She smiles, and we zoom in to her head..."
+    },
+    {
+        "name": "mum-anger",
+        "scene": "ID552504",
+        "dialog": "Best idea he’s had in awhile."
+    },
+    {
+        "name": "mum-sadness",
+        "scene": "ID552504",
+        "dialog": "He’s a really good guy.They all sigh. Mom’s Anger tosses the MEMORY of the Brazilian helicopter pilot. Mom’s Fear retrieves it."
+    },
+    {
+        "name": "mum-fear",
+        "scene": "ID552504",
+        "dialog": "Just in case.."
+    },
+    {
+        "name": "riley",
+        "scene": "ID513703",
+        "dialog": "Oh. Sorry!She smiles.ZOOM IN TO THE BOY’S HEAD."
+    },
+    {
+        "name": "riley",
+        "scene": "ID298310",
+        "dialog": "Uhh... Ooooo-kay. Bye!Riley skates out onto the ice, looking back over her shoulder... with a hint of a smile?HOCKEY TEAMMATE All set, Riley?She HIGH-FIVES a new teammate. They skate into position as Mom and Dad cheer from the stands."
+    },
+    {
+        "name": "joy",
+        "scene": "ID144909",
+        "dialog": "You ready?Yeah!"
+    },
+
+    {
+        "name": "joy",
+        "scene": "ID692725",
+        "dialog": "All right Anger, take it!"
+    },
+    {
+        "name": "anger",
+        "scene": "ID692725",
+        "dialog": "Give us that puck or you’re deadmeat! Riley gets it!"
+    },
+    
+    {
+        "name": "disgust",
+        "scene": "ID692725",
+        "dialog": "Let’s just try not to get allsmelly this time."
+    },
+    {
+        "name": "sadness",
+        "scene": "ID692725",
+        "dialog": "Hooh, Mom and Dad are watching usfail."
+    }
+]
