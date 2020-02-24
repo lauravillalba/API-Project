@@ -1,8 +1,6 @@
-from flask import Flask, request
+from flask import request
 from pymongo import MongoClient
-from bson.json_util import dumps
 
-app = Flask(__name__)
 
 # Connect to the database
 client = MongoClient("mongodb://localhost:27017/api_db")
@@ -12,8 +10,7 @@ coll_scenes = db['scenes']
 coll_dialogues = db['dialogues']
 
 
-@app.route('/addUser/',methods=['POST'])
-def newUser ():
+def addUser (name):
     #Add new user to coll_users:
     name = request.form.get('name')
     n_user = max(coll_users.distinct('userID'))+1
@@ -31,8 +28,7 @@ def newUser ():
 
     return f"Usuario '{name}' creado --> id: {n_user}!"
 
-@app.route('/addScene/',methods=['POST'])
-def newScene():
+def addScene(scene,names):
     #Add new scene to coll_scenes:
     scene = request.form.get('scene')
     n_scene = max(coll_scenes.distinct('sceneID'))+1
@@ -51,8 +47,7 @@ def newScene():
 
     return f"Escena '{scene}' creada --> id: {n_scene}"
 
-@app.route('/addDialog/',methods=['POST'])
-def newDialog():
+def addDialog(scene,name,dialog):
     #Add new dialog to coll_dialogs:
     scene = request.form.get('scene')
     n_scene = list(coll_scenes.find({'sceneName':scene}))
@@ -76,6 +71,3 @@ def newDialog():
         coll_dialogues.insert_one(dict_addDialog)
     print (dict_addDialog['sceneID'],dict_addDialog['dialog'])
     return f"Dialogo guardado --> id: {n_dialog}!"
-
-
-app.run("0.0.0.0", 2020, debug=True)

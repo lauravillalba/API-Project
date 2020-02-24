@@ -1,12 +1,11 @@
-from flask import Flask, request
+from flask import request
 from sklearn.feature_extraction.text import CountVectorizer
 import requests
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity as distance
-import api_get as get
+from sklearn.feature_extraction.text import CountVectorizer
 from pymongo import MongoClient
 
-app = Flask(__name__)
 
 client = MongoClient("mongodb://localhost:27017/api_db")
 db = client.get_database()
@@ -14,25 +13,16 @@ coll_users = db['users']
 coll_scenes = db['scenes']
 coll_dialogues = db['dialogues']
 
-@app.route('/recommended/<personaje>', methods=['GET'])
-def recommended (personaje):
-    #Consulto todos los nombres de los personajes:
-    names = get.usersNames()
+
+def listaPersonajes (names):
+    #Lista con todos los nombres de los personajes:
     characters = []
     for n in names:
         characters.append(n['userName'])
     characters = characters[1:]
+    return characters
 
-    #Creo un diccionario vacío donde guardar los diálogos de cada personaje:
-    big_dict = {}
-    for c in characters:
-        dialogues = pd.DataFrame(get.characterDialogues(c))
-        lista = []
-        if 'dialog' in list(dialogues.columns):
-            for d in dialogues['dialog']:
-                lista.append(d)
-            big_dict[c] = ' '.join(lista)
-
+def recomendedCharacter(personaje, big_dict):
     #Analizo las frases de cada personaje:
     count_vectorizer = CountVectorizer()
     sparse_matrix = count_vectorizer.fit_transform(big_dict.values())
@@ -48,7 +38,7 @@ def recommended (personaje):
     ranking = (pd.DataFrame(sim_df[personaje][1:].sort_values(ascending = False))).index
 
     #Consulta a la API para listar con quién tiene diálogos este personaje:
-    query = {'$and': [{'userNames': {'$eq':'joy'}},{'sceneID':{'$ne': 0}}]}
+    query = {'$and': [{'userNames': {'$eq':personaje}},{'sceneID':{'$ne': 0}}]}
     with_character = list(coll_scenes.find(query,{'_id':0,'userNames':1}))
 
     comunes = []
@@ -62,5 +52,3 @@ def recommended (personaje):
             return(f'Recomendamos a {e}')
 
     return f"No hay recomendación para el personaje {personaje}"
-
-app.run("0.0.0.0", 2020, debug=True)

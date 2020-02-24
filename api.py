@@ -3,11 +3,9 @@ from pymongo import MongoClient
 from bson.json_util import dumps, loads
 import requests
 import pandas as pd
-import nltk
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-#import recommendation
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics.pairwise import cosine_similarity as distance
+from recommendation_functions import listaPersonajes,recomendedCharacter
+from add_functions import addUser, addScene, addDialog
+from sentiment_functions import sentimentAnalysis
 
 app = Flask(__name__)
 
@@ -18,6 +16,27 @@ coll_users = db['users']
 coll_scenes = db['scenes']
 coll_dialogues = db['dialogues']
 
+#-------------------------------------------------- POST ------------------------------------------------------------------
+
+@app.route('/addUser/',methods=['POST'])
+def newUser ():
+    #Add new user to coll_users:
+
+    return addUser ('name')
+
+@app.route('/addScene/',methods=['POST'])
+def newScene():
+    #Add new scene to coll_scenes:
+
+    return addScene('scene','names')
+
+@app.route('/addDialog/',methods=['POST'])
+def newDialog():
+    #Add new dialog to coll_dialogs:
+    
+    return addDialog('scene','name','dialog')
+
+#-------------------------------------------------- GET ------------------------------------------------------------------
 @app.route('/usersnames/',methods=['GET'])
 def usersNames():
     #Devuelve los nombre e id de todos los personajes
@@ -54,49 +73,38 @@ def characterDialogues(character):
     return dumps(coll_dialogues.find({'userName': character}, {'_id': 0, 'userID':1, 'userName':1,'sceneID':1, 'sceneName':1, 'dialogID':1,'dialog':1}))
 
 
+#-------------------------------------------------- SENTIMENT ------------------------------------------------------------------
+
 @app.route('/sentimentscene/<scenename>', methods=['GET'])
 def sentimentScene(scenename):
-    #Devuelve el sentiment de cada frase de la escena y calcula la media de sentiment de la escena y la incluye en coll_scenes
+    #Devuelve el sentiment de cada frase de la escena y calcula la media de sentiment de la escena y la incluye en coll_scenes (por defecto 0)
     df_scene = pd.DataFrame(loads(sceneDialogues(scenename)))
-    sia = SentimentIntensityAnalyzer()
-    lista_compound = []
-    if 'dialog' in list(df_scene.columns):
-        for e in df_scene.dialog:
-            lista_compound.append(sia.polarity_scores(e)['compound'])
-    
-    df_scene['compound'] = lista_compound
+    df = sentimentAnalysis('scenename',df_scene)
     
     #Actualizo sentiment mean a la escena (se crea como 0 por defecto):
-    coll_scenes.update_one({'sceneName': scenename}, {'$set': {'sceneSentiment':df_scene['compound'].mean()}})
+    coll_scenes.update_one({'sceneName': scenename}, {'$set': {'sceneSentiment':df['compound'].mean()}})
+    return df.to_json(orient = 'records',force_ascii=False)
 
-    return df_scene.to_json(orient = 'records',force_ascii=False)
 
 @app.route('/sentimentcharacter/<character>', methods=['GET'])
 def sentimentCharacter(character):
     #Devuelve el sentiment de un personaje a partir de todas las frases que haya dicho
     df_dialogues=pd.DataFrame ( loads(characterDialogues(character)))
-    sia = SentimentIntensityAnalyzer()
-    lista_compound = []
-    if 'dialog' in list(df_dialogues.columns):
-        for e in df_dialogues.dialog:
-            lista_compound.append(sia.polarity_scores(e)['compound'])
-        
-    df_dialogues['compound'] = lista_compound
+    df = sentimentAnalysis('character',df_dialogues)
     
     #Actualizo sentiment mean del personaje (se crea con valor 0 por defecto):   
-    coll_users.update_one({'userName': character}, {'$set': {'userSentiment':df_dialogues['compound'].mean()}})
-    
+    coll_users.update_one({'userName': character}, {'$set': {'userSentiment':df['compound'].mean()}})
     return dumps(characterDetails(character))
+
+
+#-------------------------------------------------- RECOMMENDATION ------------------------------------------------------------------
 
 @app.route('/recommended/<personaje>', methods=['GET'])
 def recommending(personaje):
     
     #Consulto todos los nombres de los personajes:
     names = loads(usersNames())
-    characters = []
-    for n in names:
-        characters.append(n['userName'])
-    characters = characters[1:]
+    characters = listaPersonajes (names)
 
     #Creo un diccionario vacío donde guardar los diálogos de cada personaje:
     big_dict = {}
@@ -108,34 +116,7 @@ def recommending(personaje):
                 lista.append(d)
             big_dict[c] = ' '.join(lista)
 
-    #Analizo las frases de cada personaje:
-    count_vectorizer = CountVectorizer()
-    sparse_matrix = count_vectorizer.fit_transform(big_dict.values())
-    matrix = sparse_matrix.todense()
-    df = pd.DataFrame(matrix, 
-                    columns=count_vectorizer.get_feature_names(), 
-                    index=big_dict.keys())
+    return recomendedCharacter(personaje, big_dict)
 
-    similarity_matrix = distance(df,df)
-    sim_df = pd.DataFrame(similarity_matrix, columns=big_dict.keys(), index=big_dict.keys())
-
-    #Creo ranking del personaje consultado:
-    ranking = (pd.DataFrame(sim_df[personaje][1:].sort_values(ascending = False))).index
-
-    #Consulta a la API para listar con quién tiene diálogos este personaje:
-    query = {'$and': [{'userNames': {'$eq':personaje}},{'sceneID':{'$ne': 0}}]}
-    with_character = list(coll_scenes.find(query,{'_id':0,'userNames':1}))
-
-    comunes = []
-    for e in with_character:
-        comunes.append(e['userNames'])
-    comunes = list(set([e for b in comunes for e in b]))
-
-    #Verificación (comprobar con quién no comparte diálogo) y recomendación:
-    for e in ranking:
-        if e not in comunes:
-            return(f'Recomendamos a {e} para el personaje {personaje}')
-
-    return f"No hay recomendación para el personaje {personaje}"
 
 app.run("0.0.0.0", 2020, debug=True)
