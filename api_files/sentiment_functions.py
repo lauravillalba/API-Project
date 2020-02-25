@@ -4,14 +4,11 @@ import pandas as pd
 from bson.json_util import loads
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-import os
-from config import dbURL
-from dotenv import load_dotenv
-load_dotenv()
+from config import LOCAL_DB
 
 
 # Connect to the database
-client = MongoClient("mongodb+srv://admin:admin@cluster0-xtczl.mongodb.net/api_db?retryWrites=true&w=majority")
+client = MongoClient(LOCAL_DB)
 db = client.get_database()
 coll_users = db['users']
 coll_scenes = db['scenes']

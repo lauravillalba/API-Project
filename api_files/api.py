@@ -3,20 +3,16 @@ from pymongo import MongoClient
 from bson.json_util import dumps, loads
 import requests
 import pandas as pd
-from recommendation_functions import listaPersonajes,recomendedCharacter
+from recommendation_functions import listaPersonajes, recomendedCharacter
 from add_functions import addUser, addScene, addDialog
 from sentiment_functions import sentimentAnalysis
-import os
-from config import dbURL
-from dotenv import load_dotenv
-load_dotenv()
+from config import LOCAL_DB, PORT
 
 app = Flask(__name__)
 
 # Connect to the database
 
-
-client = MongoClient("mongodb+srv://admin:admin@cluster0-xtczl.mongodb.net/api_db?retryWrites=true&w=majority")
+client = MongoClient(LOCAL_DB)
 db = client.get_database()
 coll_users = db['users']
 coll_scenes = db['scenes']
@@ -125,4 +121,4 @@ def recommending(personaje):
     return recomendedCharacter(personaje, big_dict)
 
 
-app.run("0.0.0.0", os.getenv("PORT"), debug=True)
+app.run('0.0.0.0', port=PORT, debug=True)
