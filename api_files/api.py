@@ -7,15 +7,16 @@ from recommendation_functions import listaPersonajes,recomendedCharacter
 from add_functions import addUser, addScene, addDialog
 from sentiment_functions import sentimentAnalysis
 import os
+from config import dbURL
 from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
 
 # Connect to the database
-mongo_url=os.getenv("MONGODB_URL")
 
-client = MongoClient(mongo_url)
+
+client = MongoClient("mongodb+srv://admin:admin@cluster0-xtczl.mongodb.net/api_db?retryWrites=true&w=majority")
 db = client.get_database()
 coll_users = db['users']
 coll_scenes = db['scenes']
@@ -124,4 +125,4 @@ def recommending(personaje):
     return recomendedCharacter(personaje, big_dict)
 
 
-app.run("0.0.0.0", 2020, debug=True)
+app.run("0.0.0.0", os.getenv("PORT"), debug=True)

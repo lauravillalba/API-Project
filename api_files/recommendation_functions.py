@@ -4,9 +4,15 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity as distance
 from sklearn.feature_extraction.text import CountVectorizer
 from pymongo import MongoClient
+import os
+from config import dbURL
+from dotenv import load_dotenv
+load_dotenv()
 
 
-client = MongoClient("mongodb://localhost:27017/api_db")
+
+# Connect to the database
+client = MongoClient("mongodb+srv://admin:admin@cluster0-xtczl.mongodb.net/api_db?retryWrites=true&w=majority")
 db = client.get_database()
 coll_users = db['users']
 coll_scenes = db['scenes']

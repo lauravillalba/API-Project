@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"api_db.scenes"}],"uuid":"1c79ef21550b47dca043df9880e64a02"}

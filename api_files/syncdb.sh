@@ -2,7 +2,7 @@
 
 
 LOCAL_DB="mongodb://localhost/api_db"
-#REMOTE_DB= url de mongo atlas --> esta en .env
+REMOTE_DB= "mongodb+srv://admin:admin@cluster0-xtczl.mongodb.net/api_db?retryWrites=true&w=majority"
 
 # Load REMOTE_DB env variable
 source .private.env
