@@ -11,8 +11,7 @@ Crear una API para el análisis de mensajes: nivel de sentiment individual y de 
 ## Temática:
 
         "Inside Out" --> Se analiza el sentiment de los personajes de la película de animación "Inside Out", 
-          y dado un personaje el sistema de recomendación le dirá con quién tiene mayor similitud de 
-        
+          y dado un personaje el sistema de recomendación le dirá con quién tiene mayor similitud de
                     los personajes con los que no comparta diálogo en la película.
 
 ## Consideraciones previas:
