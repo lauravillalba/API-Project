@@ -4,14 +4,15 @@
                                                     # API-Project 
 ------------------------------
 
-El objetivo de este proyecto es crear una API mediante la cual se puedan analizar mensajes y con esto definer el nivel de sentiment que tiene cada grupo y cada persona. Además se implantará un sistema de recomendación, con el que se indicará la persona con mayor similitud para otra del todos de usuarios de la aplicación.  
+## Objetivo:
+Crear una API para el análisis de mensajes: nivel de sentiment individual y de grupo. Además se implantará un sistema de recomendación, con el que se indicará la persona con mayor similitud para otra del conjunto de usuarios de la aplicación.
 
 
 ## Temática:
 
-           "Inside Out film" --> Se analiza el sentiment de los personajes de la película de animación "Inside Out", 
-           y dado un personaje el sistema de recomendación le dirá con quién tiene mayor similitud de los personajes con 
-                                            los que no comparta diálogo en la película.
+        "Inside Out" --> Se analiza el sentiment de los personajes de la película de animación "Inside Out", 
+        y dado un personaje el sistema de recomendación le dirá con quién tiene mayor similitud de los personajes con 
+                          los que no comparta diálogo en la película.
 
 ## Consideraciones previas:
 - Los personajes serán los usuarios de esta aplicación.
@@ -25,7 +26,7 @@ El objetivo de este proyecto es crear una API mediante la cual se puedan analiza
 - JSON diálogos
 
 
-## Output:
+## Funcionamiento API:
 - Métodos POST:
   * Creación nuevo personaje: se valida si el personaje ya existe antes de añadirlo a la colección.
   * Creación nueva escena: se valida si la escena y los personajes que intervienen en la misma ya existen.
@@ -46,6 +47,9 @@ El objetivo de este proyecto es crear una API mediante la cual se puedan analiza
 - Sistema de recomendación:
   * Con una petición a la API indicando uno de los personajes, se devuelve el personaje con el que aún no ha compartido          escena que mayor similitud tiene.
 
+- Docker - HEROKU:
+  * Imagen Docker
+  * Despliegue HEROKU --> https://insideoutapi.herokuapp.com/
 
 ## Próximos pasos:
 - Incluir grupos como nueva característica de los personajes --> Hay escenas en las que aunque hablen distintos personajes, no se comunican entre ellos. Habría que agrupar: Riley, Mom y Dad.
